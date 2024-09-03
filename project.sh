@@ -43,7 +43,6 @@ clean() {
     rm -rf \
         docker-compose.yml \
         node_modules \
-        package.json \
         yarn.lock \
         .cache \
         .npm \
