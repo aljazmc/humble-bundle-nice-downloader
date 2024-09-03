@@ -5,5 +5,8 @@
   "main": "src/index.ts",
   "repository": "PLACEHOLDER",
   "author": "aljazmc <mlinaric.aljaz@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
 }

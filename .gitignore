@@ -1,1 +1,12 @@
+## docker config, generated on "./project.sh start"
+
 docker-compose.yml
+
+## yarn berry stuff
+
+.pnp.cjs
+.yarn/berry/
+.yarn/install-state.gz
+.yarn/unplugged/
+yarn.lock
+
