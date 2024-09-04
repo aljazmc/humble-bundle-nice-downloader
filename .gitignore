@@ -10,3 +10,9 @@ docker-compose.yml
 .yarn/unplugged/
 yarn.lock
 
+## yarn classic stuff
+
+.cache/
+.yarnrc
+node_modules/
+
