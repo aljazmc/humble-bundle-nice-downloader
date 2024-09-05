@@ -17,6 +17,8 @@ yarn.lock
 ## yarn classic stuff
 
 .cache/
+.config/
+.yarn/
 .yarnrc
 node_modules/
 
