@@ -1,3 +1,7 @@
+## build dir
+
+humble-bundle-nice-downloader
+
 ## docker config, generated on "./project.sh start"
 
 docker-compose.yml
