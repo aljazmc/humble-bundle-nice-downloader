@@ -9,13 +9,18 @@
   "devDependencies": {
     "@eslint/compat": "^1.2.7",
     "@eslint/js": "^9.21.0",
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.13.8",
     "esbuild": "^0.25.0",
     "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
     "eslint-plugin-prettier": "^5.2.3",
     "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "jest-esbuild": "^0.3.0",
     "jiti": "^2.4.2",
     "prettier": "^3.5.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.25.0"
   },
@@ -24,6 +29,7 @@
     "build-ts": "esbuild src/index.ts --bundle --minify --outdir=${npm_package_name}",
     "cp-assets": "sh -c 'cp -aR src/icons ${npm_package_name}/icons' ",
     "cp-manifest": "sh -c 'cp -aR src/manifest.json ${npm_package_name}/manifest.json' ",
-    "mk-dir": "sh -c 'mkdir -p ${npm_package_name}' "
+    "mk-dir": "sh -c 'mkdir -p ${npm_package_name}' ",
+    "test": "jest"
   }
 }

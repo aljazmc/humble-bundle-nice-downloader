@@ -1,5 +1,3 @@
-import type { Linter } from "eslint";
-
 import globals from "globals";
 import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
@@ -15,8 +13,8 @@ const gitignorePath = path.resolve(__dirname, ".gitignore");
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   includeIgnoreFile(gitignorePath),
-  {files: ["**/*.{js,mjs,cjs,ts}"]},
-  {languageOptions: { globals: globals.browser }},
+  { files: ["**/*.{js,mjs,cjs,ts}"] },
+  { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   eslintPluginPrettierRecommended,
