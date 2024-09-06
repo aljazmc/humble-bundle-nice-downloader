@@ -1,18 +1,61 @@
 {
-  "manifest_version": 2,
-  "name": "Borderify",
-  "version": "1.0",
-
-  "description": "Adds a red border to all webpages matching mozilla.org.",
-
-  "icons": {
-    "48": "icons/icon.png"
+  "_action": {},
+  "_author": "",
+  "_background": {
+    "scripts": []
   },
-
+  "_browser_specific_settings": {},
+  "_chrome_settings_overrides": {},
+  "_chrome_url_overrides": {},
+  "_commands": {},
   "content_scripts": [
     {
       "matches": ["*://*.mozilla.org/*"],
       "js": ["index.js"]
     }
-  ]
+  ],
+  "_content_security_policy": "",
+  "_declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset",
+      "enabled": false,
+      "path": ""
+    }]
+  },
+  "_default_locale": "",
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "_developer": {},
+  "_devtools_page": "",
+  "_dictionaries": "",
+  "_externally_connectable": "",
+  "homepage_url": "https://github.com/aljazmc/humble-bundle-nice-downloader",
+  "_host_permissions": [],
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "_incognito": "spanning",
+  "manifest_version": 3,
+  "name": "Humble Bundle nice downloader",
+  "_offline_enabled": "",
+  "_omnibox": {
+    "keyword": "hb"
+  },
+  "_optional_host_permissions": [],
+  "_optional_permissions": [],
+  "_options_page": "",
+  "_options_ui": {
+    "page": ""
+  },
+  "_permissions": [],
+  "_protocol_handlers": [],
+  "_short_name": "",
+  "_sidebar_action": {
+    "default_panel": ""
+  },
+  "_storage": "",
+  "_theme": "",
+  "_theme_experiment": {},
+  "version": "0.0.0",
+  "_version_name": "",
+  "_web_accessible_resources": []
 }
