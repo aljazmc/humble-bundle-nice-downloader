@@ -35,7 +35,7 @@
   },
   "_incognito": "spanning",
   "manifest_version": 3,
-  "name": "Humble Bundle nice downloader",
+  "name": "Humble Bundle Nice Downloader",
   "_offline_enabled": "",
   "_omnibox": {
     "keyword": "hb"
