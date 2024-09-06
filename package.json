@@ -27,10 +27,10 @@
   "scripts": {
     "build": "yarn mk-dir && yarn cp-manifest && yarn cp-assets && yarn build-ts",
     "build-ts": "esbuild src/index.ts --bundle --minify --outdir=${npm_package_name}",
-    "clean": "sh -c 'rm -rf ${npm_package_name}' ",
-    "cp-assets": "sh -c 'cp -aR src/icons ${npm_package_name}/icons' ",
-    "cp-manifest": "sh -c 'cp -aR src/manifest.json ${npm_package_name}/manifest.json' ",
-    "mk-dir": "sh -c 'mkdir -p ${npm_package_name}' ",
+    "clean": "rm -rf ${npm_package_name}",
+    "cp-assets": "cp -aR src/icons ${npm_package_name}/icons",
+    "cp-manifest": "cp -aR src/manifest.json ${npm_package_name}/manifest.json",
+    "mk-dir": "mkdir -p ${npm_package_name}",
     "test": "jest"
   }
 }
