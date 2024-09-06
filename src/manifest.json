@@ -1,5 +1,8 @@
 {
-  "_action": {},
+  "action": {
+    "default_icon": "icons/icon.png",
+    "default_popup": "index.html"
+  },
   "_author": "",
   "_background": {
     "scripts": []
