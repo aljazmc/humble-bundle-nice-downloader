@@ -42,10 +42,13 @@ clean() {
     docker compose down -v --rmi all --remove-orphans
     rm -rf \
         docker-compose.yml \
+        humble-bundle-nice-downloader \
         node_modules \
         yarn.lock \
         .cache \
+        .config \
         .npm \
+        .yarn \
         .yarn/berry \
         .yarn/bin \
         .yarn/unplugged \
