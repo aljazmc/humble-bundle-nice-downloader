@@ -10,7 +10,7 @@
   "_commands": {},
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
+      "matches": ["*://*.humblebundle.com/*"],
       "js": ["index.js"]
     }
   ],
@@ -23,7 +23,7 @@
     }]
   },
   "_default_locale": "",
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "Adds a red border to all webpages matching humblebundle.com.",
   "_developer": {},
   "_devtools_page": "",
   "_dictionaries": "",
