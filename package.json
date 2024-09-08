@@ -25,14 +25,10 @@
     "typescript-eslint": "^8.25.0"
   },
   "scripts": {
-    "build": "yarn mk-dir && yarn cp-assets && yarn build-ts",
-    "build-ts": "esbuild src/index.ts --bundle --minify --outdir=${npm_package_name}",
+    "build": "yarn mk-dir && yarn cp-icons && esbuild src/*.* --bundle --loader:.css=copy --loader:.json=copy --loader:.html=copy --outdir=${npm_package_name}",
+    "build-watch": "yarn mk-dir && yarn cp-icons && esbuild src/*.* --bundle --loader:.css=copy --loader:.json=copy --loader:.html=copy --watch --outdir=${npm_package_name}",
     "clean": "rm -rf ${npm_package_name}",
-    "cp-assets": "yarn cp-css && yarn cp-html && yarn cp-icons && yarn cp-manifest",
-    "cp-css": "cp -aR src/index.css ${npm_package_name}/index.css",
-    "cp-html": "cp -aR src/index.html ${npm_package_name}/index.html",
     "cp-icons": "cp -aR src/icons ${npm_package_name}/icons",
-    "cp-manifest": "cp -aR src/manifest.json ${npm_package_name}/manifest.json",
     "mk-dir": "mkdir -p ${npm_package_name}",
     "test": "jest"
   }
