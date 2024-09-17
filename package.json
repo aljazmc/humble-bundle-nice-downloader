@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Bulk downloader for Humble Bundle",
   "main": "src/index.ts",
-  "repository": "https://github.com/aljazmc/humble-bundle-nice-downloader",
+  "repository": "https://github.com/aljazmc/humble-bundle-nice-downloader-firefox-extension",
   "author": "aljazmc <mlinaric.aljaz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
