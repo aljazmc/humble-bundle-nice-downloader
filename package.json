@@ -32,5 +32,6 @@
     "mk-dir": "mkdir -p ${npm_package_name}",
     "test": "jest",
     "test-watch": "jest --watchAll"
-  }
+  },
+  "packageManager": "yarn@4.7.0"
 }

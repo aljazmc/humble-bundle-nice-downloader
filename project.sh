@@ -48,7 +48,6 @@ clean() {
         .cache \
         .config \
         .npm \
-        .yarn \
         .yarn/berry \
         .yarn/bin \
         .yarn/unplugged \
