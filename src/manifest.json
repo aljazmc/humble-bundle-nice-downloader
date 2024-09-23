@@ -4,8 +4,8 @@
     "default_popup": "index.html"
   },
   "author": "aljazmc",
-  "_background": {
-    "scripts": []
+  "background": {
+    "scripts": ["background.js"]
   },
   "browser_specific_settings": {
     "gecko": {
