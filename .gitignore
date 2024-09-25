@@ -11,7 +11,9 @@ docker-compose.yml
 .pnp.cjs
 .yarn/berry/
 .yarn/install-state.gz
+.yarn/sdks/
 .yarn/unplugged/
+.vim/
 yarn.lock
 
 ## yarn classic stuff
