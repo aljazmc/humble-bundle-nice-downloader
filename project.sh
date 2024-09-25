@@ -50,9 +50,11 @@ clean() {
         .npm \
         .yarn/berry \
         .yarn/bin \
+        .yarn/sdks \
         .yarn/unplugged \
         .yarn/install-state.gz \
-        .yarnrc
+        .yarnrc \
+        .vim
 
 }
 
