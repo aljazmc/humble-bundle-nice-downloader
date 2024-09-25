@@ -23,9 +23,6 @@
     "name": "aljazmc",
     "url": "https://github.com/aljazmc"
   },
-  "externally_connectable": {  
-      "matches": ["*://*.mozilla.org/*"]
-  },
   "homepage_url": "https://github.com/aljazmc/humble-bundle-nice-downloader-firefox-extension",
   "host_permissions": ["*://*.mozilla.org/*"],
   "icons": {
