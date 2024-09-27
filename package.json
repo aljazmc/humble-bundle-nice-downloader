@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Bulk downloader for Humble Bundle, inspired by Humble Bundle Downloader",
   "main": "src/index.ts",
+  "type": "module",
   "repository": "https://github.com/aljazmc/humble-bundle-nice-downloader",
   "author": "aljazmc <mlinaric.aljaz@gmail.com>",
   "license": "MIT",
