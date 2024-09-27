@@ -24,3 +24,6 @@ yarn.lock
 .yarnrc
 node_modules/
 
+## jest
+
+coverage/

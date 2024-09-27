@@ -146,7 +146,7 @@ const config: Config = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: "v8",
+  // testEnvironment: "jest-environment-node",
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -176,9 +176,8 @@ const config: Config = {
 
   // A map from regular expressions to paths to transformers
   // transform: undefined,
-
-  "transform": {
-    "^.+\\.tsx?$": "jest-esbuild"
+  transform: {
+    "^.+\\.tsx?$": "jest-esbuild",
   },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
