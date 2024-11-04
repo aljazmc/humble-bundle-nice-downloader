@@ -41,6 +41,7 @@ clean() {
 
     docker compose down -v --rmi all --remove-orphans
     rm -rf \
+        coverage \
         docker-compose.yml \
         humble-bundle-nice-downloader \
         node_modules \
