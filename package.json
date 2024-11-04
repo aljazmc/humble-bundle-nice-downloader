@@ -34,6 +34,8 @@
     "mk-dir": "mkdir -p ${npm_package_name}",
     "sdks": "yarn dlx @yarnpkg/sdks vim",
     "test": "jest",
-    "test-watch": "jest --watchAll"
+    "test-watch": "jest --watchAll",
+    "typecheck": "tsc",
+    "typecheck-watch": "tsc --watch"
   }
 }
