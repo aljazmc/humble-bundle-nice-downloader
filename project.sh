@@ -32,41 +32,41 @@ fi
 
 clean() {
 
-    docker compose down -v --rmi all --remove-orphans
+  docker compose down -v --rmi all --remove-orphans
     rm -rf \
-        coverage \
-        docker-compose.yml \
-        humble-bundle-nice-downloader \
-        node_modules \
-        yarn.lock \
-        .cache \
-        .config \
-        .npm \
-        .yarn/berry \
-        .yarn/bin \
-        .yarn/sdks \
-        .yarn/unplugged \
-        .yarn/install-state.gz \
-        .yarnrc \
-        .vim
+    coverage \
+    docker-compose.yml \
+    humble-bundle-nice-downloader \
+    node_modules \
+    yarn.lock \
+    .cache \
+    .config \
+    .npm \
+    .yarn/berry \
+    .yarn/bin \
+    .yarn/sdks \
+    .yarn/unplugged \
+    .yarn/install-state.gz \
+    .yarnrc \
+    .vim
 
 }
 
 node() {
 
 if [ ! -f package.json ]; then
-    docker compose run --rm node yarn init
+  docker compose run --rm node yarn init
 else
-    docker compose run --rm node yarn install
+  docker compose run --rm node yarn install
 fi
 
-    docker compose run --rm node sh -c "printenv"
+  docker compose run --rm node sh -c "printenv"
 
 }
 
 start() {
 
-    node
+  node
 
 }
 
