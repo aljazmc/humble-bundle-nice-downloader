@@ -8,10 +8,10 @@ Bulk downloader for Humble Bundle, inspired by [Humble Bundle Downloader](https:
 
 ## Planned Features:
 
-* recursive search
+* basic crawling support
 * extract downloadable links from the website
-* sort downloadable links by bundle
-* sort downloadable links by filetype
-* neat minimalist user interface
+* select downloadable links by bundle
+* select downloadable links by filetype
 * bulk file selection capability
-* nice file-by-file downloading
+* neat minimalist user interface
+* simple file-by-file downloading
