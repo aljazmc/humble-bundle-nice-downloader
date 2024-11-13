@@ -104,6 +104,7 @@ else
   docker compose run --rm node yarn install
 fi
 
+  docker compose run --rm node yarn sdks
   docker compose run --rm node sh -c "printenv"
 
 }
