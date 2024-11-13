@@ -57,9 +57,9 @@ clean() {
   	firefox/fd2r40gx.firefox-testing-profile/favicons.sqlite \
   	firefox/fd2r40gx.firefox-testing-profile/favicons.sqlite-wal \
   	firefox/fd2r40gx.firefox-testing-profile/features \
-  	firefox/fd2r40gx.firefox-testing-profile/formhistory.sqlite
+  	firefox/fd2r40gx.firefox-testing-profile/formhistory.sqlite \
   	firefox/fd2r40gx.firefox-testing-profile/gmp-gmpopenh264 \
-  	firefox/fd2r40gx.firefox-testing-profile/handlers.json
+  	firefox/fd2r40gx.firefox-testing-profile/handlers.json \
   	firefox/fd2r40gx.firefox-testing-profile/key4.db \
   	firefox/fd2r40gx.firefox-testing-profile/lock \
   	firefox/fd2r40gx.firefox-testing-profile/permissions.sqlite \
