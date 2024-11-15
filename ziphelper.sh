@@ -1,8 +1,7 @@
 #!/bin/bash
 
-## Watch humble-bundle-nice-downloader folder for file changes and 
-## pump out new .xpi files to custom firefox profile extensions folder 
-## like there is no tomorrow
+## A script to watch humble-bundle-nice-download and pump out xpi file 
+## after each file change.
 ## 
 ## Stop it with Ctrl + Z
 
