@@ -58,6 +58,7 @@ firefox/fd2r40gx.firefox-testing-profile/gmp-gmpopenh264/
 firefox/fd2r40gx.firefox-testing-profile/handlers.json
 firefox/fd2r40gx.firefox-testing-profile/key4.db
 firefox/fd2r40gx.firefox-testing-profile/lock
+firefox/fd2r40gx.firefox-testing-profile/.parentlock
 firefox/fd2r40gx.firefox-testing-profile/permissions.sqlite
 firefox/fd2r40gx.firefox-testing-profile/pkcs11.txt
 firefox/fd2r40gx.firefox-testing-profile/places.sqlite
