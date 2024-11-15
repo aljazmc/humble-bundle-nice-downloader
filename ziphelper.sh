@@ -13,6 +13,16 @@ if [[ "$OSTYPE" != "linux-gnu"* ]]; then
     exit
 fi
 
+## Check if directory humble-bundle-nice-downloader exists or exit
+
+if [[ ! -d humble-bundle-nice-downloader ]]; then
+    echo "Directory humble-bundle-nice-downloader doesn't exist. Exiting..."
+    echo ""
+    echo "You should start \"yarn build-watch\" before running this script"
+    exit
+fi
+
+
 while true;
  do 
    watch -n 3 -d -t -g ls -lR humble-bundle-nice-downloader &&
