@@ -35,6 +35,7 @@ firefox/fd2r40gx.firefox-testing-profile/activity-stream.discovery_stream.json
 firefox/fd2r40gx.firefox-testing-profile/activity-stream.weather_feed.json
 firefox/fd2r40gx.firefox-testing-profile/addonStartup.json.lz4
 firefox/fd2r40gx.firefox-testing-profile/addons.json
+firefox/fd2r40gx.firefox-testing-profile/bookmarkbackups/
 firefox/fd2r40gx.firefox-testing-profile/bounce-tracking-protection.sqlite
 firefox/fd2r40gx.firefox-testing-profile/broadcast-listeners.json
 firefox/fd2r40gx.firefox-testing-profile/cache2/
@@ -47,8 +48,8 @@ firefox/fd2r40gx.firefox-testing-profile/cookies.sqlite-wal
 firefox/fd2r40gx.firefox-testing-profile/crashes/
 firefox/fd2r40gx.firefox-testing-profile/datareporting/
 firefox/fd2r40gx.firefox-testing-profile/extension-preferences.json
-firefox/fd2r40gx.firefox-testing-profile/extensions/
 firefox/fd2r40gx.firefox-testing-profile/extensions.json
+firefox/fd2r40gx.firefox-testing-profile/extensions/
 firefox/fd2r40gx.firefox-testing-profile/favicons.sqlite
 firefox/fd2r40gx.firefox-testing-profile/favicons.sqlite-wal
 firefox/fd2r40gx.firefox-testing-profile/features/
@@ -66,6 +67,7 @@ firefox/fd2r40gx.firefox-testing-profile/protections.sqlite
 firefox/fd2r40gx.firefox-testing-profile/safebrowsing/
 firefox/fd2r40gx.firefox-testing-profile/search.json.mozlz4
 firefox/fd2r40gx.firefox-testing-profile/security_state
+firefox/fd2r40gx.firefox-testing-profile/serviceworker.txt
 firefox/fd2r40gx.firefox-testing-profile/sessionCheckpoints.json
 firefox/fd2r40gx.firefox-testing-profile/sessionstore-backups
 firefox/fd2r40gx.firefox-testing-profile/sessionstore.jsonlz4
