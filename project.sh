@@ -118,6 +118,15 @@ fi
   docker compose run --rm node yarn sdks
   docker compose run --rm node sh -c "printenv"
 
+if [[ "$XDG_CURRENT_DESKTOP" == "MATE" ]]; then
+  mate-terminal -- sh -c "docker compose run --rm node yarn build-watch"
+  mate-terminal -- sh -c "docker compose run --rm node yarn test-watch"
+  mate-terminal -- sh -c "docker compose run --rm node yarn typecheck-watch"
+  mate-terminal -- sh -c "./ziphelper.sh"
+  sleep 5
+  firefox-esr --profile firefox/fd2r40gx.firefox-testing-profile/
+fi
+
 }
 
 start() {
