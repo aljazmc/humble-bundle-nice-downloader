@@ -19,8 +19,11 @@ if [[ ! -d humble-bundle-nice-downloader ]]; then
     echo ""
     echo "You should start \"yarn build-watch\" before running this script"
     exit
+else
+   cd humble-bundle-nice-downloader && \
+   7z u ../firefox/fd2r40gx.firefox-testing-profile/extensions/\{e1ea7933-f4a5-4d96-8838-90950e98d093\}.xpi ./* -r
+   cd ..
 fi
-
 
 while true;
  do 
