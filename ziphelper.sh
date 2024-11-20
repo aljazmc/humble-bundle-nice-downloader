@@ -2,7 +2,7 @@
 
 ## A script to watch humble-bundle-nice-download and pump out xpi file 
 ## after each file change.
-## 
+
 ## Stop it with Ctrl + Z
 
 ## Check if OS is GNU/Linux or exit
@@ -13,17 +13,11 @@ if [[ "$OSTYPE" != "linux-gnu"* ]]; then
 fi
 
 if [[ ! -d humble-bundle-nice-downloader ]]; then
-
-  ## Check if directory humble-bundle-nice-downloader exists or exit
-
   echo "Directory humble-bundle-nice-downloader doesn't exist. Exiting..."
   echo ""
   echo "You should start \"yarn build-watch\" before running this script"
   exit
 else
-   
-  ## Build initial xpi archive in Firefox testing profile extensions folder
-
   cd humble-bundle-nice-downloader && \
   7z u ../firefox/fd2r40gx.firefox-testing-profile/extensions/\{e1ea7933-f4a5-4d96-8838-90950e98d093\}.xpi ./* -r
   cd ..
@@ -31,10 +25,6 @@ fi
 
 while true;
 do
-
-  ## Watch humble-bundle-nice-downloader folder and 
-  ## rebuild xpi archive after each change
-
   watch -n 3 -d -t -g ls -lR humble-bundle-nice-downloader &&
   cd humble-bundle-nice-downloader && \
   7z u ../firefox/fd2r40gx.firefox-testing-profile/extensions/\{e1ea7933-f4a5-4d96-8838-90950e98d093\}.xpi ./* -r && \
