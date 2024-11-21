@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
+      "matches": ["*://*.humblebundle.com/*"],
       "js": ["content.js"]
     }
   ],
@@ -24,7 +24,7 @@
     "url": "https://github.com/aljazmc"
   },
   "homepage_url": "https://github.com/aljazmc/humble-bundle-nice-downloader-firefox-extension",
-  "host_permissions": ["*://*.mozilla.org/*"],
+  "host_permissions": ["*://*.humblebundle.com/*"],
   "icons": {
     "48": "icons/icon.png"
   },
