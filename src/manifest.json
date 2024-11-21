@@ -18,7 +18,7 @@
       "js": ["content.js"]
     }
   ],
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "A bulk downloader for humblebundle.com",
   "developer": {
     "name": "aljazmc",
     "url": "https://github.com/aljazmc"
