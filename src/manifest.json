@@ -26,7 +26,11 @@
   "homepage_url": "https://github.com/aljazmc/humble-bundle-nice-downloader-firefox-extension",
   "host_permissions": ["*://*.humblebundle.com/*"],
   "icons": {
-    "48": "icons/icon.png"
+    "48": "icons/icon.svg",
+    "72": "icons/icon.svg",
+    "96": "icons/icon.svg",
+    "128": "icons/icon.svg",
+    "256": "icons/icon.svg"
   },
   "manifest_version": 3,
   "name": "Humble Bundle Nice Downloader",
