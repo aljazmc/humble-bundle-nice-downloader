@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="42"
+   height="42"
+   viewBox="0 0 42 42"
+   version="1.1"
+   id="SVGRoot"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9">
+    <rect
+       x="2.1180618"
+       y="3.264436"
+       width="40.958382"
+       height="18.121817"
+       id="rect240" />
+  </defs>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text238"
+       style="font-size:6.66667px;white-space:pre;shape-inside:url(#rect240);shape-padding:0.184409;fill:#000000"
+       transform="translate(0.52623891,-1.8569677)"><tspan
+         x="2.3027344"
+         y="9.5702729"
+         id="tspan772"><tspan
+           style="font-family:Righteous;-inkscape-font-specification:Righteous"
+           id="tspan770">HBN
+</tspan></tspan><tspan
+         x="2.3027344"
+         y="17.958827"
+         id="tspan778"><tspan
+           style="fill:#800000"
+           id="tspan774">down</tspan><tspan
+           style="font-family:Righteous;-inkscape-font-specification:Righteous"
+           id="tspan776">loader</tspan></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000"
+       id="path522"
+       d="M 3.9232748,31.83795 C 4.0859565,32.006724 3.7760325,32.140509 3.6427616,32.108338 3.2816058,32.021156 3.231847,31.555593 3.3824992,31.276923 3.6519807,30.778448 4.32883,30.731912 4.7648142,31.026786 c 0.6398243,0.432741 0.6831983,1.345299 0.2400117,1.933216 -0.5906982,0.783602 -1.7461821,0.823135 -2.4841168,0.229887 -0.9286156,-0.746543 -0.9639778,-2.14798 -0.219761,-3.035018 0.9013462,-1.074322 2.550293,-1.105346 3.5859186,-0.209636 1.220449,1.055564 1.2470435,2.952928 0.1995103,4.13682 -1.2094187,1.36685 -3.3557762,1.388961 -4.6877205,0.189385 -1.51343977,-1.363035 -1.53103283,-3.758776 -0.1792595,-5.238622 1.5164854,-1.660163 4.1618848,-1.673216 5.7895223,-0.169134 1.806986,1.669816 1.815483,4.565077 0.1590088,6.340423"
+       transform="matrix(2.6160661,0,0,2.5622692,8.5696282,-50.873033)" />
+  </g>
+</svg>
