@@ -26,8 +26,8 @@
     "typescript-eslint": "^8.25.0"
   },
   "scripts": {
-    "build": "esbuild src/*.* src/**/*.png --bundle --loader:.css=copy --loader:.json=copy --loader:.html=copy --loader:.png=copy --outdir=${npm_package_name}",
-    "build-watch": "esbuild src/*.* src/**/*.png --bundle --loader:.css=copy --loader:.json=copy --loader:.html=copy --loader:.png=copy --watch --outdir=${npm_package_name}",
+    "build": "esbuild src/*.* src/**/*.svg --bundle --loader:.css=copy --loader:.json=copy --loader:.html=copy --loader:.svg=copy --outdir=${npm_package_name}",
+    "build-watch": "esbuild src/*.* src/**/*.svg --bundle --loader:.css=copy --loader:.json=copy --loader:.html=copy --loader:.svg=copy --watch --outdir=${npm_package_name}",
     "clean": "rm -rf ${npm_package_name}",
     "sdks": "yarn dlx @yarnpkg/sdks vim",
     "test": "jest",
