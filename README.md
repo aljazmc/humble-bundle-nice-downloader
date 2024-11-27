@@ -8,10 +8,5 @@ Bulk downloader for Humble Bundle, inspired by [Humble Bundle Downloader](https:
 
 ## Planned Features:
 
-* basic crawling support
-* extract downloadable links from the website
-* select downloadable links by bundle
-* select downloadable links by filetype
-* bulk file selection capability
-* neat minimalist user interface
-* simple file-by-file downloading
+* check if logged-in to Humble Bundle
+* get purchases keys (gamekeys)
