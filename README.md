@@ -10,3 +10,7 @@ Bulk downloader for Humble Bundle, inspired by [Humble Bundle Downloader](https:
 
 * check if logged-in to Humble Bundle
 * get purchases keys (gamekeys)
+* extract purchased bundles names
+* extract purchased items filenames
+* extract purchased items links
+* generate downloadable items interface
